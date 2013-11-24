@@ -1,0 +1,57 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+.stolen-frosty {
+	box-shadow: 2px -2px 2px 2px rgba(36, 32, 33, 0.5);
+	background-color: rgba(36, 32, 33, 0.5);
+	padding: 1%;
+}
+
+body {
+	
+	background: url('bg2.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/* class */
+.stolen-h1 {
+    font-family: Helvetica Neue Light,Helvetica Neue,
+    Helvetica,sans-serif;
+    font-weight: 100;
+    font-size: 48px;
+    color: white;
+    line-height: 60px;
+}
+
+/* Override all h2 tags */
+h2 {
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    color: white;
+}
+
+label {
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+
+}
+
+.error {
+  background: red;
+  display: block;
+  font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+
+}
